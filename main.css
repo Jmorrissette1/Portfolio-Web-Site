@@ -29,6 +29,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.section-h1{
+    text-align: center;
+}
+
+
 /* Hero Section */
 
 #welcome-section{
@@ -37,9 +43,7 @@ body {
     background-color: grey;
 }
 
-.section-h1{
-    text-align: center;
-}
+
 /* Project Section */
 
 #projects{
@@ -51,4 +55,18 @@ body {
 .project-card{
     margin-left: auto;
     margin-right: auto;
+}
+
+
+@media only screen and (max-width: 450px){
+
+    #welcome-section{
+        height: 400px;
+    }
+
+    
+    #projects{
+       flex-direction: column;
+        
+      } 
 }
