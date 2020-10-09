@@ -10,6 +10,8 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background-color: #162C53;
+   
 }
 
 .container {
@@ -35,6 +37,10 @@ body {
 }
 
 
+h1{
+    color:#ffff;
+}
+
 /* Hero Section */
 
 #welcome-section{
@@ -49,6 +55,8 @@ body {
 #projects{
   display: flex;
   justify-content: space-around;
+  color:#00A1E0;
+  
   
 } 
 
