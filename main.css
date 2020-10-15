@@ -40,6 +40,8 @@ body {
 #navbar{
     display: flex;
     justify-content: end;
+    position: absolute;
+    
 }
 
 /* Hero Section */
