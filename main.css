@@ -45,18 +45,21 @@ li {
   width: 100%;
   z-index: 2;
   background-color: #17006a;
-  color: #f24ba7;
+  color: #fff;
 }
 
 .nav-link {
   margin-right: 50px;
   margin-left: 50px;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Barlow", sans-serif;
+  border: 5px solid #f24ba7;
+  padding: 10px 25px 10px 25px;
 }
 /* Hero Section */
 
 .logo {
+  margin-top: 200px;
   margin-bottom: 0;
 }
 
@@ -68,28 +71,35 @@ li {
 
 #hero-h1 {
   font-family: "Barlow", sans-serif;
-  margin-top: 0px;
+  margin-top: -50px;
   font-size: 32px;
+  text-align: center;
   color: #6503a6;
 }
 /* About Me Section */
 
 /* Project Section */
 
+#profile-pic {
+  max-width: 400px;
+}
+
 #projects {
   display: flex;
   justify-content: space-around;
+}
+#footer-img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#footer-section {
+  background-color: #150259;
 }
 
 .project-card {
   margin-left: auto;
   margin-right: auto;
-}
-
-#profile-image {
-  max-width: 250px;
-  max-height: 250px;
-  border-radius: 50%;
 }
 
 @media only screen and (max-width: 450px) {
