@@ -86,8 +86,12 @@ li {
 
 #projects {
   display: flex;
+  background: linear-gradient(right top, #150259 50%, #6503a6 50%);
 }
 
+#about-me {
+  background: linear-gradient(135deg, #6503a6 50%, #150259 50%);
+}
 #layer {
   width: 100%;
   height: 100%;
