@@ -119,6 +119,7 @@ li {
   background-size: 110% 110%;
   transition: all 1s ease;
 }
+
 @media only screen and (max-width: 450px) {
   #welcome-section {
     height: 400px;
