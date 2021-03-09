@@ -139,6 +139,27 @@ li {
   transition: all 1s ease;
 }
 
+
+
+.skill-container{
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+
+}
+
+.html{
+  width: 90%;
+  background-color:#f24ba7;
+}
+
+
 @media only screen and (max-width: 450px) {
   #welcome-section {
     height: 400px;
